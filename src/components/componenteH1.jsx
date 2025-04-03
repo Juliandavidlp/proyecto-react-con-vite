@@ -1,8 +1,8 @@
-function componenteH1() {
+function ComponenteH1() {
     return (
         <div>
             <h1>Hola mundo con React JS!</h1>
         </div>
     )
 }
-export default componenteH1;
+export default ComponenteH1;
