@@ -1,7 +1,7 @@
-function ComponenteH1() {
+function ComponenteH1(props) {
     return (
         <div>
-            <h1>Hola mundo con React JS!</h1>
+            <h1>Hola, {props.nombre} con React JS!</h1>
         </div>
     )
 }
